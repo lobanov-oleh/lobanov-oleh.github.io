@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles/5.css">
   </head>
   <body>
     <div id="container">
       <div id="header">
         <h1>Лобанов О.О.</h1>
-        <img src="images/logo.png" alt="logo" />
+        <img id="logo" src="images/logo.png" alt="logo" />
         <h3>Самий крутіший слоган який мотивує на щось</h3>
       </div>
       <div id="menu">
@@ -26,13 +27,27 @@
           </li>
         </ul>
       </div>
-      <div id="content">
+      <div id="content" class="vidstup">
         <h4>Мої інтереси</h4>
         <p>Программувати на різних мовах</p>
         <p>Вчити людей тому що сам вмію</p>
         <p>Спати і дивитися дивовижні сни</p>
+        <table border="1">
+          <tr>
+            <td>1.1</td>
+            <td rowspan="2">1.2</td>
+          </tr>
+          <tr>
+            <td>2.1</td>
+          </tr>
+          <tr>
+            <td colspan="2">3.1</td>
+          </tr>
+        </table>
       </div>
-      <div id="footer">Блок футер</div>
+      <div id="footer">
+        &copy;Лобанов О.О. 2021
+      </div>
     </div>
   </body>
 </html>
