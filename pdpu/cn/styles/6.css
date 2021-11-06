@@ -1,0 +1,33 @@
+#container img {
+  width: 30px;
+}
+
+/* 1 абзац - 4 налаштування */
+#content p:nth-child(2) {
+  font-family: verdana;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 2;
+  text-align: justify;
+  text-indent: 5.25px;
+}
+
+/* 2 абзац - 1 налаштування */
+#content p:nth-child(3) {
+  font-family: "Times New Roman";
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  word-spacing: 5.25px;
+}
+
+/* 3 абзац - 2 налаштування */
+#content p:nth-child(4) {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: right;
+  text-indent: -5.25px;
+}
